@@ -49,6 +49,10 @@ ul {
     text-shadow: 0px 3px 8px #2a2a2a;
 }
 
+li{
+    padding-top:1em;
+}
+
 body {
     background: url(bg2.jpg) no-repeat;
     background-size: cover;
