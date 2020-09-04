@@ -1,3 +1,5 @@
+/*PROFILE.HTML*/
+
 h1 {
     text-align: center;
     display: block;
@@ -9,7 +11,7 @@ h1 {
     text-shadow: 0px 3px 8px #2a2a2a;
 }
 
-h2 {
+.bio h2 {
     font-family: 'Special Elite', cursive;
     font-size: 33px;
     text-align: center;
@@ -17,7 +19,7 @@ h2 {
     text-shadow: 0px 3px 8px #2a2a2a;
 }
 
-h3 {
+.hobby h3 {
     font-family: 'Special Elite', cursive;
     font-size: 33px;
     text-align: center;
@@ -25,7 +27,7 @@ h3 {
     text-shadow: 0px 3px 8px #2a2a2a;
 }
 
-h4 {
+.info h4 {
     font-family: 'Special Elite', cursive;
     font-size: 33px;
     text-align: center;
@@ -33,7 +35,7 @@ h4 {
     text-shadow: 0px 3px 8px #2a2a2a;
 }
 
-p {
+.profpage {
     font-family: 'Concert One', cursive;
     font-size: 23px;
     position: relative; left: 450px;
@@ -49,7 +51,7 @@ p {
     position: fixed;
 }
 
-.nav ul li{
+.nav ul li {
     float: bottom;
     width: 200px;
     height: 40px;
@@ -62,22 +64,22 @@ p {
     padding: 0px;
 }
 
-.nav ul li a{
+.nav ul li a {
     text-decoration: none;
     display: block;
     color:white;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
     background-color: white;
     color:black;
 }
 
-.nav ul li ul li{
+.nav ul li ul li {
     display:none;
 }
 
-.nav ul li:hover ul li{
+.nav ul li:hover ul li {
     display:block;
 }
 
@@ -89,7 +91,7 @@ p {
     text-shadow: 0px 3px 8px #2a2a2a;
 }
 
-.list li{
+.list li {
     padding-top: 1em;
 }
 
@@ -101,16 +103,12 @@ p {
                   
 }
 
-img {
-    border-radius: 8px;
-    
-}
-
 .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 8.5%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8.5%;
+    border-radius: 8px;
 }
 
 .me {
@@ -138,4 +136,34 @@ img {
     height: 2px;
     background-color: #999;
     border-radius: 7px;
+}
+
+
+/*INDEX.HTML*/
+
+.ind {
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+/*DASHBOARD.HTML*/
+
+.dash {
+    background: url(bg2.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+/*FAQ.HTML*/
+
+.faqq {
+    background: url(bg3.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
