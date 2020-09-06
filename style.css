@@ -140,31 +140,6 @@ h1 {
     opacity: 0.8;
 }
 
-.hob { /*try to target these in one class instead of 3 separate*/
-    border: none;
-    height: 20px;
- 	width: 20%;
-	height: 50px;
-	margin-top: 0;
-	border-bottom: 2px solid #c5c5c5;
-	box-shadow: 0 20px 20px -20px #ffffff;
-    margin: -50px auto 10px;
-    opacity: 0.8;
-}
-
-.not-so { /*try to target these in one class instead of 3 separate*/
-    border: none;
-    height: 20px;
- 	width: 20%;
-	height: 50px;
-	margin-top: 0;
-	border-bottom: 2px solid #c5c5c5;;
-	box-shadow: 0 20px 20px -20px #ffffff;
-    margin: -50px auto 10px;
-    opacity: 0.8;
-}
-
-
 /*INDEX.HTML*/
 
 .ind {
