@@ -115,7 +115,7 @@ h1 {
     box-shadow:3px 3px 19px 1px rgb(0, 0, 0);
 }
 
-.me {
+.me { /*try to target these in one class instead of 3 separate*/
     border: none;
     height: 20px;
  	width: 20%;
@@ -127,7 +127,7 @@ h1 {
     opacity: 0.8;
 }
 
-.hob {
+.hob { /*try to target these in one class instead of 3 separate*/
     border: none;
     height: 20px;
  	width: 20%;
@@ -139,7 +139,7 @@ h1 {
     opacity: 0.8;
 }
 
-.not-so {
+.not-so { /*try to target these in one class instead of 3 separate*/
     border: none;
     height: 20px;
  	width: 20%;
@@ -211,7 +211,7 @@ h1 {
 .head h3{
     float:left;
     color: white;
-    text-indent: 90px; /*change according to suize of guide*/
+    text-indent: 130px; /*change according to suize of guide*/
     display: block;
     text-decoration: none;
     font-family: 'Special Elite', cursive;
@@ -223,7 +223,7 @@ h1 {
 .head h4{
     float:right;
     color: white;
-    text-indent: 90px; /*change according to suize of guide*/
+    text-indent: 130px; /*change according to suize of guide*/
     direction:rtl;
     display: block;
     text-decoration: none;
@@ -235,7 +235,7 @@ h1 {
 
 .navguide ul { 
     margin: 0px;
-    padding: 0px; 
+    padding-top: 120px; 
     list-style: none;
 }
 
