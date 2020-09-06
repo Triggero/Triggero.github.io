@@ -63,6 +63,7 @@ h1 {
     color: white;
     padding: 0px;
     box-shadow: 0px 0px 19px 1px rgba(255,255,255,1);
+    overflow: hidden;
 }
 
 .nav ul li a {
@@ -251,6 +252,7 @@ h1 {
     color: white;
     padding: 0px;
     box-shadow: 0px 0px 6px 1px rgba(255,255,255,1);
+    overflow: hidden;
 }
 
 .navguide ul li a {
