@@ -139,7 +139,7 @@ h1 {
     box-shadow:3px 3px 19px 1px rgb(0, 0, 0);
 }
 
-.me { /*try to target these in one class instead of 3 separate*/
+.me {
     border: none;
     height: 20px;
  	width: 20%;
@@ -207,40 +207,83 @@ h1 {
     opacity: 0.8;
 }
 
-.head h3{
-    float:left;
-    color: white;
-    text-indent: 130px; /*change according to suize of guide*/
-    display: block;
-    text-decoration: none;
-    font-family: 'Special Elite', cursive;
-    font-size: 40px;
-    text-shadow: 0px 3px 8px #2a2a2a;
-    padding: 0px;
+table {
+    border-collapse: collapse; 
+    margin: 50px auto;
+    margin-bottom: 30px;
+    table-layout: fixed;
+    box-shadow: 0px 0px 6px 2px rgba(255,255,255,1);
+    border-radius: 5px;
+    overflow:hidden;
 }
 
-.head h4{
-    float:right;
-    color: white;
-    text-indent: 130px; /*change according to suize of guide*/
-    direction:rtl;
-    display: block;
-    text-decoration: none;
+table th {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 13px;
+    color:#FFFFFF;
+    font-weight:bold;
+    text-align:center;
+    box-shadow: 0px 0px 3px 1px rgba(255,255,255,1);
     font-family: 'Special Elite', cursive;
-    font-size: 40px;
+    font: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
     text-shadow: 0px 3px 8px #2a2a2a;
-    padding: 0px;
 }
+
+table td{
+    padding: 10px;
+    box-shadow: 0px 0px 3px 1px rgba(255,255,255,1);
+    font-family: 'Concert One', cursive;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-shadow: 3px 3px 8px #000000;
+}
+
+table tr{
+    color:#FFFFFF;
+    text-align:center;  
+}
+
+.dots{
+    text-align:center;
+}
+
+.dot {
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Concert One', cursive;
+    color: white;
+    text-shadow: 0px 1px 17px black;
+    width: 80px;
+    height: 20px;
+    box-shadow: 0px 0px 3px 2px rgba(255,255,255,0.8);
+  }
+
+#dot1{
+    background: linear-gradient(90deg, white, black)
+}
+
+#dot2{
+    background-color: white;
+    color: black;
+}
+
 
 .navguide ul { 
     margin: 0px;
-    padding-top: 120px; 
+    padding-top: 50px;
+    padding-bottom: 40px;
     list-style: none;
+    position: relative;
+    left: 414px;
 }
 
 .navguide ul li {
     position: static;
-    width: 300px;
+    width: 600px;
     height: 40px;
     border-radius: 5px;
     line-height: 40px;
@@ -249,7 +292,7 @@ h1 {
     font-family: 'Concert One', cursive;
     color: white;
     padding: 0px;
-    box-shadow: 0px 0px 6px 1px rgba(255,255,255,1);
+    box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
     overflow: hidden;
 }
 
@@ -313,7 +356,7 @@ h1 {
 .accordion-label:hover ~ .accordion-label::after{
     fill: black;
 }
-/*Dont know why the above doesn't work*/
+/*Dont know why the above doesn't work but know reason is fill doesn't work at all*/
 
 .accordion-label::after {
     content: "";
@@ -331,7 +374,7 @@ h1 {
 .accordion-content {
     color: rgba(255,255,255,0.8);
     line-height: 1.6;
-    font-size: 0.85em;
+    font-size: 0.9em;
     display: none;
   }
   
@@ -345,4 +388,10 @@ h1 {
   
 .accordion-input:checked ~ .accordion-label::after {
     transform: translateY(-50%) rotate(0.5turn);
+}
+
+.links {
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    font-size: 1em;
 }
