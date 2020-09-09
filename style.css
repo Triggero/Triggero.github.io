@@ -207,6 +207,57 @@ h1 {
     opacity: 0.8;
 }
 
+.progressbar {
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    left: 600px;
+    top: 30px;
+}
+
+.meter {
+    height: 23px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    width: 310px;
+    padding: 0px;
+    box-shadow : inset 0px 0px 4px rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+.meter span {
+    display: block;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 2px;
+    padding-left: 9px;
+    font-family: 'Concert One', cursive;
+}
+
+.nbsa{
+    /*Stupid but works so not stupid but can be better*/
+    width: 4px;
+    height: 23px;
+    background-color: white; /* make bg color black when boundary passed*/
+    display: inline-block;
+    position: absolute;
+    top: 342px;
+    left: 820px;
+    font-family: 'Concert One', cursive;
+}
+
+#nbsa{
+    color: white;
+    font-family: 'Concert One', cursive;
+    margin: 0;
+    position: absolute;
+    left: 808px;
+    top: 370px;
+}
+
 table {
     border-collapse: collapse; 
     margin: 50px auto;
