@@ -51,6 +51,7 @@ body {
     font-size: 21px;
     color: rgb(233, 233, 233);
     text-shadow: 0px 3px 8px #2a2a2a;
+    text-align: justify;
 }
 
 .dashcard-ind {
@@ -72,7 +73,7 @@ body {
     font-family: 'Concert One', cursive;
     font-size: 20px;
     position: absolute;
-    top: 1150px;
+    top: 1800px;
     left: 530px;
     overflow-y: auto;
     margin-top: 20px;
@@ -163,7 +164,7 @@ body {
     font-family: 'Concert One', cursive;
     font-size: 20px;
     position: absolute;
-    top: 1150px;
+    top: 1800px;
     left: 30px;
     overflow-y: auto;
     margin-top: 20px;
@@ -214,17 +215,20 @@ body {
 }
   
 .accordion-content-ind2 {
-    color: rgba(255,255,255,0.8);
-    line-height: 1.6;
-    font-size: 0.9em;
     display: none;
 }
 
-.accordion-content-ind2 a{
-    color: rgba(255,255,255,0.8);
-    line-height: 1.6;
-    font-size: 1em;
-    text-decoration: none;
+.accordion-content-ind2 img{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+
+.accordion-content-ind2 img:hover{
+    filter: brightness(60%);
 }
 
 .accordion-content-ind2 a:hover {
@@ -254,7 +258,7 @@ body {
     font-family: 'Concert One', cursive;
     font-size: 20px;
     position: absolute;
-    top: 1150px;
+    top: 1800px;
     left: 1030px;
     overflow-y: auto;
     margin-top: 20px;
@@ -309,6 +313,7 @@ body {
     line-height: 1.6;
     font-size: 0.9em;
     display: none;
+    text-align: center;
 }
 
 .accordion-content-ind3 a{
