@@ -219,11 +219,11 @@ body {
 }
 
 .accordion-content-ind2 img{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 175px;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 1);
     border-radius: 8px;
-    margin-left: 110px;
+    margin-left: 120px;
     margin-bottom: 30px;
 }
 
