@@ -1,10 +1,366 @@
+/*INDEX.HTML*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+}
+   
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: grey;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: white; 
+}
+
+.ind {
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+#thumbnail-ind {
+    box-shadow: 0px 0px 19px 1px rgba(255,255,255,1);
+}
+  
+.fullCard-ind {
+    width: 748px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 4px;
+}
+
+.cardContent-ind {
+    padding: 10px;
+}
+.cardText-ind {
+    line-height: 1.6;
+    display: block;
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
+    font-size: 21px;
+    color: rgb(233, 233, 233);
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.dashcard-ind {
+    border: none;
+    height: 20px;
+ 	width: 60%;
+	height: 50px;
+	margin-top: 0;
+	box-shadow: 0 20px 20px -20px #ffffff;
+    margin: -55px auto 10px;
+}
+
+.accordion-ind1 {
+    width: 470px;
+    max-height: 200px;
+    box-shadow: 0px 0px 19px 1px rgba(255,255,255,1);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 1150px;
+    left: 530px;
+    overflow-y: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+  
+.accord-ind1{
+    box-shadow: 0px 0px 3px 1px rgba(255,255,255,1);
+}
+
+.accordion-content-ind1 {
+    padding: 14px 20px;
+}
+  
+.accordion-label-ind1 {
+    display: block;
+    color: rgba(255,255,255,0.8);
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    padding: 14px 20px;
+    text-align: center;
+}
+  
+.accordion-label-ind1:hover {
+    background-color: rgba(255,255,255,0.8);
+    color:black;
+    transition: 0.4s;
+}
+  
+.accordion-label-ind1:hover ~ .accordion-label-ind1::after{
+    fill: black;
+}
+/*Dont know why the above doesn't work but know reason is fill doesn't work at all*/
+
+.accordion-label-ind1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:white;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+  
+.accordion-content-ind1 {
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    font-size: 0.9em;
+    display: none;
+}
+
+.accordion-content-ind1 a{
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.accordion-content-ind1 a:hover {
+    color: black;
+}
+
+.accordion-input-ind1 {
+    display: none;
+}
+  
+.accordion-input-ind1:checked ~ .accordion-content-ind1 {
+    display: block;
+}
+  
+.accordion-input-ind1:checked ~ .accordion-label-ind1::after {
+    transform: translateY(-50%) rotate(0.5turn);
+}
+
+/*ACCORDION 2*/
+
+.accordion-ind2 {
+    width: 470px;
+    max-height: 200px;
+    box-shadow: 0px 0px 19px 1px rgba(255,255,255,1);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 1150px;
+    left: 30px;
+    overflow-y: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+  
+.accord-ind2{
+    box-shadow: 0px 0px 3px 1px rgba(255,255,255,1);
+}
+
+.accordion-content-ind2 {
+    padding: 14px 20px;
+}
+  
+.accordion-label-ind2 {
+    display: block;
+    color: rgba(255,255,255,0.8);
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    padding: 14px 20px;
+    text-align: center;
+}
+  
+.accordion-label-ind2:hover {
+    background-color: rgba(255,255,255,0.8);
+    color:black;
+    transition: 0.4s;
+}
+  
+.accordion-label-ind2:hover ~ .accordion-label-ind2::after{
+    fill: black;
+}
+/*Dont know why the above doesn't work but know reason is fill doesn't work at all*/
+
+.accordion-label-ind2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:white;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+  
+.accordion-content-ind2 {
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    font-size: 0.9em;
+    display: none;
+}
+
+.accordion-content-ind2 a{
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.accordion-content-ind2 a:hover {
+    color: black;
+}
+
+.accordion-input-ind2 {
+    display: none;
+}
+  
+.accordion-input-ind2:checked ~ .accordion-content-ind2 {
+    display: block;
+}
+  
+.accordion-input-ind2:checked ~ .accordion-label-ind2::after {
+    transform: translateY(-50%) rotate(0.5turn);
+}
+
+/*ACCORDION 3*/
+
+.accordion-ind3 {
+    width: 470px;
+    max-height: 200px;
+    box-shadow: 0px 0px 19px 1px rgba(255,255,255,1);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 1150px;
+    left: 1030px;
+    overflow-y: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+  
+.accord-ind3{
+    box-shadow: 0px 0px 3px 1px rgba(255,255,255,1);
+}
+
+.accordion-content-ind3 {
+    padding: 14px 20px;
+}
+  
+.accordion-label-ind3 {
+    display: block;
+    color: rgba(255,255,255,0.8);
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    padding: 14px 20px;
+    text-align: center;
+}
+  
+.accordion-label-ind3:hover {
+    background-color: rgba(255,255,255,0.8);
+    color:black;
+    transition: 0.4s;
+}
+  
+.accordion-label-ind3:hover ~ .accordion-label-ind3::after{
+    fill: black;
+}
+/*Dont know why the above doesn't work but know reason is fill doesn't work at all*/
+
+.accordion-label-ind3::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:white;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+  
+.accordion-content-ind3 {
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    font-size: 0.9em;
+    display: none;
+}
+
+.accordion-content-ind3 a{
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.accordion-content-ind3 a:hover {
+    color: black;
+}
+
+.accordion-input-ind3 {
+    display: none;
+}
+  
+.accordion-input-ind3:checked ~ .accordion-content-ind3 {
+    display: block;
+}
+  
+.accordion-input-ind3:checked ~ .accordion-label-ind3::after {
+    transform: translateY(-50%) rotate(0.5turn);
+}
+
 /*PROFILE.HTML*/
 
-h1 {
+.cardText h1 {
     text-align: center;
     display: block;
     text-decoration: none;
     font-family: 'Special Elite', cursive;
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.cardText-ind h1 {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
     font-size: 40px;
     color: rgb(233, 233, 233);
     text-shadow: 0px 3px 8px #2a2a2a;
@@ -19,18 +375,6 @@ h1 {
     color: rgb(233, 233, 233);
     text-shadow: 0px 3px 8px #2a2a2a;
     margin: 0;
-}
-
-.faqhead {
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    font-family: 'Special Elite', cursive;
-    font-size: 60px;
-    color: rgb(233, 233, 233);
-    text-shadow: 0px 3px 8px #2a2a2a;
-    padding-bottom: 0;
-    margin: 0px;
 }
 
 .bio h2 {
@@ -66,7 +410,7 @@ h1 {
 }
 
 
-.nav ul { /*Problem: How to make menu flush with page top left corner? */
+.nav ul {
     margin: 0px;
     padding: 0px; 
     list-style: none;
@@ -148,16 +492,6 @@ h1 {
 	box-shadow: 0 20px 20px -20px #ffffff;
     margin: -50px auto 10px;
 }
-
-/*INDEX.HTML*/
-
-.ind {
-    background: url(bg1.jpg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
-
 
 /*DASHBOARD.HTML*/
 
@@ -325,7 +659,7 @@ table tr{
     padding-bottom: 40px;
     list-style: none;
     position: relative;
-    left: 414px;
+    left: 420px;
 }
 
 .navguide ul li {
@@ -363,6 +697,18 @@ table tr{
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
+}
+
+.faqhead {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: 'Special Elite', cursive;
+    font-size: 60px;
+    color: rgb(233, 233, 233);
+    text-shadow: 0px 3px 8px #2a2a2a;
+    padding-bottom: 0;
+    margin: 0px;
 }
 
 .accordion {
