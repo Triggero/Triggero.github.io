@@ -490,13 +490,111 @@ h2 {
 
 .me {
     border: none;
-    height: 20px;
  	width: 20%;
 	height: 50px;
 	margin-top: 0;
 	box-shadow: 0 20px 20px -20px #ffffff;
     margin: -50px auto 10px;
 }
+
+/*MOTIVATION.HTML*/
+
+.motiv {
+    background: url(bg4.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.motiv h1 {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 46px;
+    color: rgb(233, 233, 233);
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.list hr {
+    border: none;
+    width: 20%;
+    height: 50px;
+    margin-top: 0;
+    box-shadow: 0 20px 20px -20px #ffffff;
+    margin: -50px;
+}
+  
+.fullCard-mot {
+    width: 748px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 4px;
+    box-shadow: 0px 0px 19px 1px rgba(255,255,255,1);
+}
+
+.cardContent-mot {
+    padding: 10px;
+}
+.cardText-mot {
+    line-height: 1.6;
+    display: block;
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
+    font-size: 21px;
+    color: rgb(233, 233, 233);
+    text-shadow: 0px 3px 8px #2a2a2a;
+    text-align: justify;
+}
+
+.dashcard-mot {
+    border: none;
+    height: 20px;
+ 	width: 60%;
+	height: 50px;
+	margin-top: 0;
+	box-shadow: 0 20px 20px -20px #ffffff;
+    margin: -55px auto 10px;
+}
+
+/*PROFESSION.HTML*/
+
+.prof li {
+    list-style: none;
+}
+
+.profText {
+    margin: 0;
+    padding-top: 5px;
+}
+
+#prof {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 46px;
+    color: rgb(233, 233, 233);
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.profImages {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 36%;
+    margin: 0;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.profImages:hover {
+    opacity: 0.85;
+}
+
+.profHeadings {
+    font-size: 30px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+
 
 /*DASHBOARD.HTML*/
 
@@ -509,6 +607,7 @@ h2 {
 
 #thumbnail {
     box-shadow: 0px 0px 19px 1px rgba(255,255,255,1);
+    transform: preserve-3d;
 }
   
 .fullCard {
@@ -540,6 +639,16 @@ h2 {
 	margin-top: 0;
 	box-shadow: 0 20px 20px -20px #ffffff;
     margin: -55px auto 10px;
+}
+
+#cardAnimate{
+    width: 25%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    perspective: 1000px;
 }
 
 .progressbar {
@@ -579,7 +688,7 @@ h2 {
     background-color: white; /* make bg color black when boundary passed*/
     display: inline-block;
     position: absolute;
-    top: 335px;
+    top: 434px;
     left: 820px;
     font-family: 'Concert One', cursive;
 }
@@ -590,7 +699,7 @@ h2 {
     margin: 0;
     position: absolute;
     left: 808px;
-    top: 370px;
+    top: 460px;
 }
 
 table {
@@ -793,3 +902,4 @@ table tr{
     line-height: 1.6;
     font-size: 1em;
 }
+
