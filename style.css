@@ -555,6 +555,22 @@ h2 {
     margin: -55px auto 10px;
 }
 
+.resource {
+    width: 470px;
+    max-height: 200px;
+    box-shadow: 0px 0px 19px 1px rgba(255,255,255,1);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 2000px;
+    left: 530px;
+    overflow-y: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 /*PROFESSION.HTML*/
 
 .prof li {
